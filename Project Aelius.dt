@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT4H30M28.3701472S" SolutionTotalViewTime="PT5H56M48.456847S" SolutionTotalDebugTime="PT0S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Users\etern\Google Drive\VS Projects\Project Aelius</SolutionFolder>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT3H30M0.2573952S" EditActiveTime="PT44M16.691067S">
+      <ModifiedDate>2019-02-10T21:00:26.9929615+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Ability.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:35:41.4141925+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT49M37.4474899S" EditActiveTime="PT51M46.7449113S">
+      <ModifiedDate>2019-02-10T20:58:38.437095+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Character.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:00:16.6633457+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M18.3956825S" EditActiveTime="PT23.088288S">
+      <ModifiedDate>2019-02-10T21:08:15.3969936+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Fight.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T21:06:38.1978733+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.3518268S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:36:25.2061675+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT44.9121916S" EditActiveTime="PT5M26.0196014S">
+      <ModifiedDate>2019-02-10T21:06:06.5138689+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Item.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:36:21.1159569+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT3H30M0.2573952S" EditActiveTime="PT44M16.691067S">
+      <ModifiedDate>2019-02-10T21:00:26.9929615+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Ability.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:35:41.4141925+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1H54M2.7488944S" EditActiveTime="PT1H19M50.0263884S">
+      <ModifiedDate>2019-02-10T20:58:38.437095+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Character.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-09T14:51:09.111555+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M18.3436364S" EditActiveTime="PT23.088288S">
+      <ModifiedDate>2019-02-10T21:08:15.3969936+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Fight.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T21:06:38.1978733+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21M31.9889726S" EditActiveTime="PT42M34.6637768S">
+      <ModifiedDate>2019-02-08T22:27:24.5260115+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>5</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T20:38:37.2212535+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9M55.0369659S" EditActiveTime="PT1H43M23.8916447S">
+      <ModifiedDate>2019-02-10T21:06:06.5138689+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>4</EditedCount>
+      <ViewedCount>4</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Item.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T21:36:21.5253507+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0909642S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Properties\Settings.Designer.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T21:20:55.7341847+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT1M18.3446356S" EditActiveTime="PT23.088288S">
+      <ModifiedDate>2019-02-10T21:08:15.3969936+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Fight.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T21:06:38.1978733+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1.3518268S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:36:25.2061675+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT44.9121916S" EditActiveTime="PT5M26.0196014S">
+      <ModifiedDate>2019-02-10T21:06:06.5138689+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Item.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:36:21.1159569+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3H30M0.2573952S" EditActiveTime="PT44M16.691067S">
+      <ModifiedDate>2019-02-10T21:00:26.9929615+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Ability.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:35:41.4141925+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT49M37.4474899S" EditActiveTime="PT51M46.7449113S">
+      <ModifiedDate>2019-02-10T20:58:38.437095+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Character.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-10T13:00:16.6633457+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1H4M25.3034046S" EditActiveTime="PT28M3.2814771S">
+      <ModifiedDate>2019-02-09T15:23:57.8284564+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Character.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-09T14:51:09.111555+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5M36.4780785S" EditActiveTime="PT34M53.7339993S">
+      <ModifiedDate>2019-02-09T14:50:19.3060881+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Item.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-09T14:11:01.6525448+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT24.1826688S" EditActiveTime="PT3M27.2285521S">
+      <ModifiedDate>2019-02-08T22:52:03.9543687+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Item.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T22:48:17.2144247+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M9.4660258S" EditActiveTime="PT59M36.9094919S">
+      <ModifiedDate>2019-02-08T22:46:05.0444057+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Item.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T21:36:21.5253507+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0909642S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Properties\Settings.Designer.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T21:20:55.7341847+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16M31.2795349S" EditActiveTime="PT42M34.6637768S">
+      <ModifiedDate>2019-02-08T22:27:24.5260115+09:00</ModifiedDate>
+      <ModifiedBy>etern</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T20:44:21.8802834+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M11.8037827S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T20:42:49.2609256+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M43.8612757S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T20:40:52.7293573+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M3.6945662S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\Project Aelius.csproj</ProjectName>
+      <CreatedDate>2019-02-08T20:38:37.2212535+09:00</CreatedDate>
+      <ViewedBy>etern</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>
