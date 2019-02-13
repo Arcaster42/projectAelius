@@ -21,5 +21,11 @@ namespace Project_Aelius
         {
             
         }
+
+        private void newBtn_Click(object sender, EventArgs e)
+        {
+            NewChar newChar = new NewChar();
+            newChar.ShowDialog();
+        }
     }
 }

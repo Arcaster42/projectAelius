@@ -1,0 +1,11 @@
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\bin\Debug\Project Aelius.exe.config
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\bin\Debug\Project Aelius.exe
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\bin\Debug\Project Aelius.pdb
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project Aelius.csprojAssemblyReference.cache
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project_Aelius.Form1.resources
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project_Aelius.NewChar.resources
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project_Aelius.Properties.Resources.resources
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project Aelius.csproj.GenerateResource.cache
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project Aelius.csproj.CoreCompileInputs.cache
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project Aelius.exe
+C:\Users\etern\Google Drive\VS Projects\Project Aelius\Project Aelius\obj\Debug\Project Aelius.pdb

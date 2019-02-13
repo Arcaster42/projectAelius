@@ -12,7 +12,7 @@ namespace Project_Aelius
         public virtual string Gender { get; set; }
     }
 
-    class NPC : Character
+    public class NPC : Character
     {
         public virtual string Description { get; set; }
         public virtual string Class { get; set; }
@@ -23,7 +23,7 @@ namespace Project_Aelius
         }
     }
 
-    class PC : Character
+    public class PC : Character
     {
         public int Level { get; set; }
         public int XP { get; set; }
@@ -50,10 +50,79 @@ namespace Project_Aelius
         public float MagResBon { get; set; }
         public float MagResT { get; set; }
 
-        public void TakeAttack(Attack att, EC ec)
+        public void NewCharacter(PC pc)
         {
-            float dmg = CalcIncDamage(att, ec);
-            TakeDamage(dmg);
+            switch (pc.Class)
+            {
+                case "Warrior":
+                    pc.Level = 1;
+                    pc.XP = 0;
+                    pc.MaxHP = 100;
+                    pc.MaxMP = 10;
+                    pc.MaxSP = 50;
+                    pc.Str = 12;
+                    pc.Dex = 8;
+                    pc.Int = 5;
+                    pc.StrB = 0;
+                    pc.StrT = 0;
+                    pc.DexB = 0;
+                    pc.DexT = 0;
+                    pc.IntB = 0;
+                    pc.IntT = 0;
+                    pc.PhyResBase = (float)(Str / 100);
+                    pc.MagResBase = (float)(Int / 100) + (Str / 200);
+                    PhyResBon = 0;
+                    PhyResT = 0;
+                    MagResBon = 0;
+                    MagResT = 0;
+                    break;
+
+                case "Rogue":
+                    pc.Level = 1;
+                    pc.XP = 0;
+                    pc.MaxHP = 70;
+                    pc.MaxMP = 20;
+                    pc.MaxSP = 70;
+                    pc.Str = 8;
+                    pc.Dex = 11;
+                    pc.Int = 6;
+                    pc.StrB = 0;
+                    pc.StrT = 0;
+                    pc.DexB = 0;
+                    pc.DexT = 0;
+                    pc.IntB = 0;
+                    pc.IntT = 0;
+                    pc.PhyResBase = (float)(Dex / 100);
+                    pc.MagResBase = (float)(Int / 100);
+                    PhyResBon = 0;
+                    PhyResT = 0;
+                    MagResBon = 0;
+                    MagResT = 0;
+                    break;
+
+                case "Mage":
+                    pc.Level = 1;
+                    pc.XP = 0;
+                    pc.MaxHP = 60;
+                    pc.MaxMP = 80;
+                    pc.MaxSP = 20;
+                    pc.Str = 6;
+                    pc.Dex = 7;
+                    pc.Int = 12;
+                    pc.StrB = 0;
+                    pc.StrT = 0;
+                    pc.DexB = 0;
+                    pc.DexT = 0;
+                    pc.IntB = 0;
+                    pc.IntT = 0;
+                    pc.PhyResBase = (float)(Str / 150);
+                    pc.MagResBase = (float)(Int / 85);
+                    PhyResBon = 0;
+                    PhyResT = 0;
+                    MagResBon = 0;
+                    MagResT = 0;
+                    break;
+            }
         }
 
         public void TakeDamage(float dmg)
@@ -63,35 +132,9 @@ namespace Project_Aelius
                 CurHP = 0;
         }
 
-        public float CalcIncDamage(Attack att, EC ec)
+        public void StateUpdate(PC pc)
         {
-            float dmg = 0;
-            int stat = 0;
-
-            if (att.Stat == "str")
-                stat = ec.Str;
-            if (att.Stat == "dex")
-                stat = ec.Dex;
-            if (att.Stat == "int")
-                stat = ec.Int;
-
-            dmg = att.GetDmg(stat);
-
-            float red = 0;
-
-            if (att.Type == "physical")
-            {
-                red = GetPhyRes();
-            }
-            if (att.Type == "magic")
-            {
-                red = GetMagRes();
-            }
-
-            dmg = dmg * (1 - red);
-            if (dmg < 1)
-                dmg = 1;
-            return dmg;
+            
         }
 
         public float GetPhyRes()
@@ -105,8 +148,9 @@ namespace Project_Aelius
         }
     }
 
-    class EC : Character
+    public class EC : Character
     {
+        public string Description { get; set; }
         public int Level { get; set; }
         public string Class { get; set; }
         public float MaxHP { get; set; }
@@ -123,10 +167,9 @@ namespace Project_Aelius
         public float MagResBase { get; set; } 
         public float MagResT { get; set; }
 
-        public void TakeAttack(Attack att, PC pc)
+        public string GetDescription()
         {
-            float dmg = CalcIncDamage(att, pc);
-            TakeDamage(dmg);
+            return Description;
         }
 
         public void TakeDamage(float dmg)
@@ -134,37 +177,6 @@ namespace Project_Aelius
             CurHP -= dmg;
             if (CurHP < 0)
                 CurHP = 0;
-        }
-
-        public float CalcIncDamage(Attack att, PC pc)
-        {
-            float dmg = 0;
-            int stat = 0;
-
-            if (att.Stat == "str")
-                stat = pc.Str + pc.StrB + pc.StrT;
-            if (att.Stat == "dex")
-                stat = pc.Dex + pc.DexB + pc.DexT;
-            if (att.Stat == "int")
-                stat = pc.Int + pc.IntB + pc.IntT;
-
-            dmg = att.GetDmg(stat);
-
-            float red = 0;
-
-            if (att.Type == "physical")
-            {
-                red = GetPhyRes();
-            }
-            if (att.Type == "magic")
-            {
-                red = GetMagRes();
-            }
-
-            dmg = dmg * (1 - red);
-            if (dmg < 1)
-                dmg = 1;
-            return dmg;
         }
 
         public float GetPhyRes()
@@ -175,6 +187,46 @@ namespace Project_Aelius
         public float GetMagRes()
         {
             return MagResBase + PhyResT;
+        }
+    }
+
+    public static class AllEC
+    {
+        //Enemies Level 1 - 5
+        public static EC bandit = new EC();
+        public static EC thug = new EC();
+
+        public static void Generate()
+        {
+            bandit.Name = "Bandit";
+            bandit.Gender = "Male";
+            bandit.Description = "A masked man in rough clothing with an old blade.";
+            bandit.Level = 1;
+            bandit.Class = "Rogue";
+            bandit.MaxHP = 25;
+            bandit.MaxMP = 0;
+            bandit.MaxSP = 10;
+            bandit.Str = 4;
+            bandit.Dex = 7;
+            bandit.Int = 3;
+            bandit.PhyResBase = (float)(bandit.Dex / 100);
+            bandit.MagResBase = (float)(bandit.Int / 100);
+            bandit.PhyResT = 0;
+            bandit.MagResT = 0;
+
+            thug.Name = "Thug";
+            thug.Gender = "Male";
+            thug.Description = "A dirty ruffian with a menacing look.";
+            thug.Level = 1;
+            thug.Class = "Warrior";
+            thug.MaxHP = 35;
+            thug.MaxMP = 0;
+            thug.MaxSP = 10;
+            thug.Str = 8;
+            thug.Dex = 5;
+            thug.Int = 1;
+            thug.PhyResBase = (float)(thug.Str / 100);
+            thug.MagResBase = (float)(thug.Str / 80);
         }
     }
 }
